@@ -1,0 +1,34 @@
+
+
+    <form name="addNewForm" #addNewForm="ngForm">
+     <div class="form-group mx-auto w-25 mt-3 ">  
+         <h2>Add a new Product</h2>
+        <div>
+        name: <input class="form-control" type="text" name="name" [(ngModel)]="newProduct.name" #nameField="ngModel" required #name="ngModel"> 
+        <div class="error text-danger" *ngIf="nameField.touched && nameField.invalid" >Name is required</div><br>
+        
+        description: <input class="form-control" type="text" name="desc" [(ngModel)]="newProduct.description" #descField="ngModel" required #desc="ngModel" > 
+        <div class="error text-danger" *ngIf="descField.touched && descField.invalid" >Description is required</div><br>
+        
+        price: <input class="form-control" type="number" [class.ng-invalid]="newProduct.price <= 0" name="price" [(ngModel)]="newProduct.price" #priceField="ngModel" [placeholder]="'Price'"  required #price="ngModel" [placeholder]="'price'"> 
+        <div class="error text-danger" *ngIf="priceField.touched && (priceField.invalid || priceField.value <= 0)">Price must be greater than 0</div><br>
+
+        
+        city: <input class="form-control" type="text" name="city" [(ngModel)]="newProduct.city" #cityField="ngModel" required #city="ngModel"> 
+        <div class="error text-danger" *ngIf="cityField.touched && cityField.invalid" >City is required</div><br>
+        
+        phone: <input class="form-control" type="tel" name="phone" [(ngModel)]="newProduct.phone" #phoneField="ngModel" required #phone="ngModel"> 
+        <div class="error text-danger" *ngIf="phoneField.touched && phoneField.invalid" >Phone is required</div><br>
+        
+        <!-- publish Date: <input type="date" name="date" [class.ng-invalid]="newProduct.publishDate <= dateParse(0)" [(ngModel)]="newProduct.publishDate" #dateField="ngModel" required #date="ngModel"> <br>
+        <div class="error" *ngIf="dateField.invalid || dateField.value == null">Publish Date is required</div> -->
+                
+        image: <input class="form-control" type="text" name="img" [(ngModel)]="newProduct.image" #imgField="ngModel" required #img="ngModel"> 
+        <div class="error text-danger" *ngIf="imgField.touched && imgField.invalid" >Image is required</div><br>
+        
+        <div class="error text-danger" *ngIf="addNewForm.form.invalid">Some fileds are not valid</div>
+
+        <button class="btn btn-primary" [disabled]="addNewForm.form.invalid" (click)="addNewProductHandler()">Add</button>
+        </div>
+      </div>
+    </form>

@@ -1,0 +1,74 @@
+{
+  "products": [
+    {
+      "id": 2,
+      "name": "iPhone",
+      "description": "Latest model of iPhone with a 6.1-inch Super Retina XDR display and A15 Bionic chip.",
+      "price": 999.99,
+      "city": "Los Angeles",
+      "phone": "987-654-3210",
+      "publishDate": "2023-07-14",
+      "image": "https://www.freeiconspng.com/thumbs/iphone-x-pictures/apple-iphone-x-pictures-5.png"
+    },
+    {
+      "id": 3,
+      "name": "Smartwatch",
+      "description": "Smartwatch with heart rate monitoring, GPS, and multiple sport modes.",
+      "price": 199.99,
+      "city": "Chicago",
+      "phone": "555-555-5555",
+      "publishDate": "2023-07-13",
+      "image": "https://th.bing.com/th/id/R.d670e636b1c505dbbab6eee86cdeef0e?rik=sUf4g12%2bzG3hRA&pid=ImgRaw&r=0"
+    },
+    {
+      "id": 4,
+      "name": "Speaker",
+      "description": "JBL Speaker",
+      "price": 50,
+      "city": "Tel Aviv",
+      "phone": "0554342",
+      "publishDate": "2023-07-11",
+      "image": "https://www.pngall.com/wp-content/uploads/4/Wireless-Portable-Speaker-PNG.png"
+    },
+    {
+      "id": 5,
+      "name": "Laptop",
+      "description": "High-performance laptop with a fast processor, dedicated graphics, and long battery life.",
+      "price": 1499.99,
+      "city": "New York",
+      "phone": "123-456-7890",
+      "publishDate": "2023-07-19",
+      "image": "https://th.bing.com/th/id/R.b0dd389bc010f9b524c10f4e977bc282?rik=2bXFXchqkwhysA&riu=http%3a%2f%2fpluspng.com%2fimg-png%2flaptop-png-laptop-notebook-png-image-image-6746-1153.png&ehk=6byFAarnH09NpQkcILADyXHoQI1AG%2bVFwkFkGcmpSnQ%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+      "id": 6,
+      "name": "Headphones",
+      "description": "Wireless headphones with noise-cancellation and immersive sound.",
+      "price": 199,
+      "city": "San Francisco",
+      "phone": "415-555-1212",
+      "publishDate": "2023-07-20",
+      "image": "https://www.pngall.com/wp-content/uploads/4/Headphone-Transparent-PNG.png"
+    },
+    {
+      "id": 7,
+      "name": "Tablet",
+      "description": "Slim and lightweight tablet with a high-resolution display and pen support.",
+      "price": 799,
+      "city": "Seattle",
+      "phone": "206-123-4567",
+      "publishDate": "2023-07-18",
+      "image": "https://th.bing.com/th/id/R.be74aab7d382d7d84bb10d52b5a00705?rik=hwOl0W70CeFAyw&riu=http%3a%2f%2fwww.pngmart.com%2ffiles%2f3%2fTablet-Transparent-PNG.png&ehk=%2fRddx226KdrHEwduLA0xm5jOym%2fZYTJCS11Yzc7vh8o%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+      "id": 8,
+      "name": "Gaming Console",
+      "description": "Next-gen gaming console with 4K gaming capabilities and a wide selection of games.",
+      "price": 499.99,
+      "city": "Austin",
+      "phone": "512-789-0000",
+      "publishDate": "2023-07-17",
+      "image": "https://th.bing.com/th/id/R.cdffdeefe4697b4e2297cf0e66822f0a?rik=WOZt76ldcPp%2flA&pid=ImgRaw&r=0"
+    }
+  ]
+}
